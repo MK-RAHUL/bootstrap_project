@@ -1,0 +1,470 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 13px;
+    transition: 0.5s ease-in-out;
+}
+.nav-item
+a:hover{
+    color: rgb(20, 219, 20);
+    transition: 0.5s;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 200px;
+}
+.search {
+    height: 40px;
+    width: 180px;
+    outline: none;
+    border: 1.5px solid rgb(20, 219, 20);
+    border-radius: 20px 0px 0px 20px;
+    background-color: transparent;
+    border-right: none;
+}
+.btn1{
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20) ;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-color: rgb(13, 172, 13) ;
+    transition: 0.5s;
+}
+.bi-cart-plus{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+    left: 5px;
+    transition: 0.5s;
+
+}
+.bi-cart-plus:hover{
+    color: rgb(20, 219, 20);
+    transition: 0.5s;
+}
+.bi-list{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+.main{
+    background: url(/imgs/fru1.png)no-repeat;
+    background-size: 600px 600px ;
+    background-position: 600px;
+    height: 90vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.main p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn2{
+    position: relative;
+    top: 4px;
+    height: 45px;
+    width: 25%;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20) ;
+    border-radius: 50px;
+    color: white;
+    font-size: 19px;
+    transition: 0.5s;
+}
+.btn2:hover{
+    background-color: rgb(13, 172, 13);
+    transition: 0.5s;
+}
+.line{
+height: 6px;
+width: 30%;
+background-color: rgb(13, 172, 13);
+display: inline-block;
+}
+.about{
+    background: url(imgs/abut.jpg)no-repeat;
+    background-size: cover ;
+    height: 90vh;
+    width: 100%;
+}
+.about h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.about p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn4{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20) ;
+    border-radius: 50px;
+    color: white;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.btn4:hover{
+    background-color: rgb(13, 172, 13);
+    transition: 0.5s;
+}
+.welcome{
+    background-color: rgb(13, 172, 13);
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+.welcome .line{
+    background-color: white;
+    height: 6px;
+    width: 15%;
+}
+.welcome h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.welcome p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.welcome .card{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 30px;
+    color: rgb(20, 219, 20);
+}
+.welcome h5{
+    font-weight: 400;
+}
+.product .line{
+    background-color: rgb(20, 219, 20);
+    height: 6px;
+    width: 15%;
+}
+.product h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.product p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.product .card-body{
+    border: 1px dashed gray;
+}
+.btn5{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20) ;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.btn5:hover{
+    outline: none;
+    border: 1px solid rgb(13, 172, 13);
+    background-color: white;
+    border-radius: 50px;
+    color: rgb(13, 172, 13);
+    font-size: 18px;
+    transition: 0.5s;
+}
+.btn6{
+    height: 50px;
+    width: 15%;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20) ;
+    border-radius: 50px;
+    color: white;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.btn6:hover{
+    background-color: rgb(13, 172, 13);
+    transition: 0.5s;
+}
+.discount{
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+.discount h2{
+    font-weight: lighter;
+}
+.discount span{
+    font-weight:bolder;
+}
+.discount button{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    transition: 0.5s;
+}
+.discount button:hover{
+    background-color: rgb(228, 228, 228);
+    transition: 0.5s;
+}
+.store span{
+    font-size: 50px;
+}
+.store h3{
+    font-weight: lighter;
+}
+.store .card{
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+}
+.store .card:hover{
+    background-color: rgb(34, 249, 34);
+    color: white;
+    transition: all 0.5s;
+}
+.sell span{
+    text-align: center;
+}
+.sell .card{
+    border: none;
+    cursor: pointer;
+}
+.contact {
+    background-image: url(/imgs/contact.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.contact h1{
+    margin-top: 30px;
+    color: white;
+}
+.contact .line1{
+    height: 6px;
+    width: 120px;
+    background-color: white;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+.contact span{
+    font-size: 30px;
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+}
+.contact .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+}
+.ans1{
+    height: 50px;
+    font-size: 20px;
+}
+.ans2{
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+}
+.ans3{
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
+}
+.ans4{
+    position: relative;
+    left: 333px;
+    bottom: 50px;
+}
+.bt1{
+    position: relative;
+    top: 80px;
+    right: 150px;
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    color: rgb(13, 172, 13);
+    font-size: 17px;
+    transition: 0.5s;
+}
+.bt1:hover{
+    background-color: black;
+    color: rgb(20, 219, 20);
+    transition: 0.5s;
+}
+
+.footer{
+    background-color: rgb(223, 219, 219);
+    color: white;
+}
+.s1{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    background-color: rgb(13, 172, 13);
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+    transition: all 0.5s;
+}
+.s1 span{
+    font-size: 20px;
+}
+.s1:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease-in;
+}
+.footer p{
+    color: rgb(13, 172, 13);
+}
+
+
+.link1{
+    font-size: 40px;
+    position: fixed;
+    left: 50px;
+    top: 520px;
+}
+.badge{
+    background-color: red;
+    color: white;
+    position: relative;
+    bottom: 12px;
+    right: 5px;
+}
+
+@media (min-width: 375px) and (max-width: 992px) {
+    .main {
+      height: auto;
+      background-position: 180px 10px;
+      background-size: 200px 200px;
+        }
+    .main .btn2{
+        width: 150px;
+    }
+    .about {
+        height: auto;
+        background-position:180px 10px ;
+        background-size:200px 200px ;
+    }
+    .about .btn4{
+        width: 150px;
+    }
+    .welcome{
+        height: 850px;
+    }
+    .welcome .card{
+        margin: 5px;
+    }
+    .product .card{
+        margin: 5px;
+    }
+    .product .btn6{
+        width: 150px;
+    }
+    .store .card{
+        margin: 5px;
+    }
+    .sell .card{
+        margin: 5px;
+    }
+    .contact{
+        height: 900px;
+    }
+    .contact .ans3 {
+        position: relative;
+        top: 5px;
+        margin-top: 5px;
+    }
+    .contact .ans2{
+        position: relative;
+        top: 1px;
+        margin-bottom: 10px;
+    }
+    .contact .ans4{
+        position: relative;
+        top: 30px;
+        left: 1px;
+
+      }
+      .contact .bt1{
+        position: relative;
+        top: 100px;
+        left: 100px;
+        width: 150px;
+      }
+
+  }
+
+.btn10{
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20) ;
+    border-radius: 50px;
+    color: white;
+    font-size: 12px;
+    transition: 0.5s;
+    position: relative;
+    top: 70px;
+}
+.btn10:hover{
+    outline: none;
+    border: 1px solid rgb(13, 172, 13);
+    background-color: white;
+    border-radius: 50px;
+    color: rgb(13, 172, 13);
+    font-size: 12px;
+    transition: 0.5s;
+}
+  
