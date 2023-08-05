@@ -4,6 +4,8 @@
 •	It offers a user-friendly interface for visitors to explore and connect with the products effortlessly.
 
 Front-end   : React Js
+
 IDE         : VScode
+
 UI/UX       : Figma
 
